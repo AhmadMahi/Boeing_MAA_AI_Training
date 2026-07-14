@@ -1,0 +1,5 @@
+HF_HUB_ETAG_TIMEOUT=86400
+HF_HUB_DOWNLOAD_TIMEOUT=86400
+HF_ENDPOINT=https://sres.web.boeing.com/artifactory/api/huggingfaceml/huggingface-prod
+HF_TOKEN=
+UDAL_PAT=
