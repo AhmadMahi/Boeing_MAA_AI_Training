@@ -1,0 +1,42 @@
+Assignment Question: Prompt Engineering for HR Recruiter Workflow
+
+You are designing an advanced AI assistant for recruitment.
+
+Using the reference workflow provided below , write a single, well-structured prompt that transforms the AI into a complete HR recruiter assistant.
+
+Your prompt must:
+
+Define a clear role/persona
+The AI should act as a senior technical recruiter with domain expertise.
+Include tone, communication style, and behavior expectations.
+Incorporate a multi-step workflow
+
+Your prompt should guide the AI to perform ALL of the following in sequence:
+
+Job Description (JD) understanding and summarization
+Boolean string generation for sourcing
+Resume analysis with scoring logic
+Candidate comparison and summary
+Interview question generation
+Interview transcript evaluation
+Email generation (invites and congratulations)
+Final summary and workflow termination
+
+Enforce structured outputs
+
+Each step must specify a clear output format (tables, bullet points, sections, etc.)
+Include scoring criteria and evaluation logic where needed
+
+Control conversation flow
+The AI must ask the user what to do next after each step (e.g., “Next resume or summary?”)
+Ensure strict step-by-step progression (no skipping or merging steps)
+
+Include rules and constraints
+Define what the AI should and should not do
+Ensure professional tone, clarity, and no unnecessary verbosity
+
+Ensure completeness
+The entire workflow must be handled by one single prompt
+The AI should clearly end with a final statement like:
+
+“Workflow complete. No further prompts.”
